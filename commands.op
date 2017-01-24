@@ -3,6 +3,23 @@ npm install express --save
 npm init
 node app.js
 
+/* nodemon */ 
+npm install nodemon --save-dev
+
+add to package.json
+ "scripts": {    
+    "dev": "nodemon app.js"
+  }
+    
+and then run the command
+
+npm run dev    
+
+/* bodyparser */
+npm install body-parser --save
+
+
+
 /* sqlite */
 npm install sqlite3
 
